@@ -30,7 +30,7 @@ args = {
     "start_date": pendulum.datetime(2025, 12, 1, tz="Europe/Moscow"),
     "catchup": True,
     "retries": 3,
-    "retry_delay": pendulum.duration(hours=1),
+    "retry_delay": pendulum.duration(minutes=1),
 }
 
 def get_dates(**context) -> tuple[str, str]:
